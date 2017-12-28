@@ -6,6 +6,17 @@
   padding: 0;
 }
 
+#nice {
+  width: 500px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 20px;
+  font-size: 40px;
+  z-index: 2;
+}
+
 #gry {
   background: image_url('gry.jpg');
   background-size: cover;
@@ -17,9 +28,9 @@
   background: none;
   font-family: Androgyne;
   background-image: image_url('katt.png'),
-    url('https://png.pngtree.com/element_origin_min_pic/16/08/29/2057c42c820b711.jpg'),
-    url('http://www.freepngimg.com/thumb/snowflakes/5-snowflake-png-image-thumb.png');
-  height: 100%;
+    image_url('katt.png'),
+    image_url('katt.png');
+  height: 900px;
   left: 0;
   position: absolute;
   top: 0;
