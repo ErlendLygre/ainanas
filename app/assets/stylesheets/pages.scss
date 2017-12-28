@@ -21,7 +21,7 @@
   background: image_url('gry.jpg');
   background-size: cover;
   width: 100vw;
-  height: 900px;
+  height: 100vh;
 }
 
 #snow{
@@ -30,7 +30,7 @@
   background-image: image_url('katt.png'),
     image_url('katt.png'),
     image_url('katt.png');
-  height: 900px;
+  height: 100vh;
   left: 0;
   position: absolute;
   top: 0;
